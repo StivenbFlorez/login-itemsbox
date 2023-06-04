@@ -11,7 +11,7 @@ body {
     color: var(--ligth);
 }
 
-<!--ICONOS-->
+/*ICONOS*/
 #icono {
     margin-top: 50px;
     margin-left: -8px;
@@ -27,13 +27,13 @@ body {
     cursor: pointer;
 }
 
-<!--links-->
+/*linksS*/
 #emailHelp {
     color: #ffffff;
     line-height: 5rem;
 }
 
-<!--INPUTS-->
+/* INPUTS */
 #boton {
     color: #ffffff;
 }
@@ -42,7 +42,7 @@ body {
     color: #ffffff;
 }
 
-<!--ESTILO INPUTS-->
+/*ESTILO INPUTS */
 .form-control,
 .btn {
     min-height: 3.125rem;
@@ -54,7 +54,7 @@ body {
     border-color: #6525af;
 }
 
-<!--PLACEHOLDERS-->
+/*PLACEHOLDERS*/
 #boton::placeholder {
     color: #b3acac;
 }
@@ -65,7 +65,7 @@ body {
     color: #b3acac;
 }
 
-<!--COLOR FONDO-->
+/*COLOR FONDO */
 .bg-dark {
     background-color: var(--dark) !important;
 }
@@ -75,13 +75,13 @@ body {
 }
 
 
-<!--H1 items box-->
+/*H1 items box*/
 .letraitem {
     margin-left: 100px;
     margin-top: -60px;
 }
 
-<!--estilo imagen-slider-->
+/*estilo imagen-slider*/
 .imagen-slider {
     height: 100vh;
     width: 100%;
