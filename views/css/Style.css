@@ -1,0 +1,88 @@
+:root {
+    --dark: #16191c;
+    --dark: #1e2126;
+    --ligth: #ffffff;
+}
+
+/**/
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--ligth);
+}
+
+<!--ICONOS-->
+#icono {
+    margin-top: 50px;
+    margin-left: -8px;
+    font-size: 5rem;
+    color: #541eaa;
+}
+
+
+.icon-2 {
+    position: absolute;
+    margin-top: 3rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+<!--links-->
+#emailHelp {
+    color: #ffffff;
+    line-height: 5rem;
+}
+
+<!--INPUTS-->
+#boton {
+    color: #ffffff;
+}
+
+#password {
+    color: #ffffff;
+}
+
+<!--ESTILO INPUTS-->
+.form-control,
+.btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.btn {
+    background-color: #6525af;
+
+    border-color: #6525af;
+}
+
+<!--PLACEHOLDERS-->
+#boton::placeholder {
+    color: #b3acac;
+}
+
+
+
+#password::placeholder {
+    color: #b3acac;
+}
+
+<!--COLOR FONDO-->
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background-color: #2b2e35 !important;
+}
+
+
+<!--H1 items box-->
+.letraitem {
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+<!--estilo imagen-slider-->
+.imagen-slider {
+    height: 100vh;
+    width: 100%;
+}
